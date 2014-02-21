@@ -1,0 +1,36 @@
+{
+  "name":         "svg.absorb.js"
+, "description":  "A plugin for svg.js adding the ability to absorb existing svg's"
+, "url":          "https://github.com/wout/svg.absorb.js"
+, "homepage":     "https://github.com/wout/svg.absorb.js"
+, "keywords":     ["svg", "vector", "graphics"]
+, "author":       "Wout Fierens <wout@impinc.co.uk>"
+, "main":         "svg.absorb.js"
+, "version":      "0.1.0"
+, "jam": {
+    "include": [
+      "svg.absorb.js"
+    , "README.md"
+    ]
+  }
+, "maintainers": [
+    {
+      "name":     "Wout Fierens"
+    , "email":    "wout@woutfierens.com"
+    , "web":      "http://woutfierens.com"
+    }
+  ]
+, "licenses": [
+    {
+      "type":     "MIT"
+    , "url":      "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
+, "repositories": [
+    {
+      "type":     "git"
+    , "url":      "https://github.com/wout/svg.absorb.js.git"
+    }
+  ]
+, "github":       "https://github.com/wout/svg.absorb.js"
+}
