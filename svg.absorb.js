@@ -1,4 +1,4 @@
-// svg.absorb.js 0.1.0 - Copyright (c) 2014 Wout Fierens - Licensed under the MIT license
+// svg.absorb.js 0.1.1 - Copyright (c) 2014 Wout Fierens - Licensed under the MIT license
 ;(function() {
 
 	SVG.Absorbee = SVG.invent({
@@ -8,6 +8,9 @@
 			this.type = node.localName
 			this.node.instance = this
 		}
+
+    // Inherit from SVG.Element
+  , inherit: SVG.Element
 
 		// How the element is constructed
 	, construct: {
