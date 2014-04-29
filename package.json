@@ -6,7 +6,7 @@
 , "keywords":     ["svg", "vector", "graphics"]
 , "author":       "Wout Fierens <wout@impinc.co.uk>"
 , "main":         "svg.absorb.js"
-, "version":      "0.1.1"
+, "version":      "0.1.2"
 , "jam": {
     "include": [
       "svg.absorb.js"
