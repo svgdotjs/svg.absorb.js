@@ -4,6 +4,9 @@ This is a plugin for the [svg.js](http://svgjs.com) library adding the ability t
 
 Svg.absorb.js is licensed under the terms of the MIT License.
 
+# Warning
+As of version 2 of SVG.js, this functionality is included in the main library. Therefore this plugin is obsolete if you are using version 2 and up.
+
 ## Introduction
 This plugin does nothing more than swallow raw svg or an existing inline svg to display in a container instance of svg.js. What happens inside the absorbed svg, stays inside the absorbed svg. The absorbed svg elements are dead matter to svg.js. This plugin should be used to visualise svg content withing a svg.js instance without the need to manipulate absorbed svg.
 
